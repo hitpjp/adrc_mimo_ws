@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+[0.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.419s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.427s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.480s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.310s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.323s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[13.358s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[13.365s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[13.444s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[13.530s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[13.531s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.531s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.579s] -- Configuring done
+[13.596s] -- Generating done
+[13.600s] -- Build files have been written to: /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+[13.616s] [35m[1mConsolidate compiler generated dependencies of target adrc_lib[0m
+[13.622s] [ 60%] Built target adrc_lib
+[13.627s] [35m[1mConsolidate compiler generated dependencies of target mimo_node[0m
+[13.636s] [ 80%] [32mBuilding CXX object CMakeFiles/mimo_node.dir/src/mimo_node.cpp.o[0m
+[17.073s] [100%] [32m[1mLinking CXX executable mimo_node[0m
+[17.403s] [100%] Built target mimo_node
+[17.409s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+[17.414s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+[17.418s] -- Install configuration: ""
+[17.418s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/libadrc_lib.a
+[17.419s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node
+[17.420s] -- Set runtime path of "/home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node" to ""
+[17.420s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include
+[17.420s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc
+[17.420s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/ADRC.h
+[17.420s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/MimoADRC.h
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/library_path.sh
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/library_path.dsv
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/package_run_dependencies/mimo_adrc
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/parent_prefix_path/mimo_adrc
+[17.421s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.sh
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.dsv
+[17.421s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.sh
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.dsv
+[17.421s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.bash
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.sh
+[17.421s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.zsh
+[17.421s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.dsv
+[17.422s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.dsv
+[17.422s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/packages/mimo_adrc
+[17.422s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.422s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/ament_cmake_export_libraries-extras.cmake
+[17.422s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig.cmake
+[17.422s] -- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig-version.cmake
+[17.422s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.xml
+[17.423s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc

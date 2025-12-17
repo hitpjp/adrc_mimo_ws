@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-56a70953699cb368f9b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mimo_adrc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "adrc_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-adrc_lib-fa3ef680f195a0af2ee0.json",
+					"name" : "adrc_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimo_adrc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimo_adrc_uninstall-3be4bd90684bec6312ea.json",
+					"name" : "mimo_adrc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimo_node-8084db17d0ff95eab30b.json",
+					"name" : "mimo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c5f335b6bd98c3603ab4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pjp2/adrc_mimo_ws/build/mimo_adrc",
+		"source" : "/home/pjp2/adrc_mimo_ws/src/mimo_adrc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

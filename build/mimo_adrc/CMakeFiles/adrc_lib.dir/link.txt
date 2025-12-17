@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadrc_lib.a CMakeFiles/adrc_lib.dir/src/ADRC.cpp.o CMakeFiles/adrc_lib.dir/src/MimoADRC.cpp.o
+/usr/bin/ranlib libadrc_lib.a

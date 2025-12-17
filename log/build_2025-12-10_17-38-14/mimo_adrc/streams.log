@@ -1,0 +1,94 @@
+[0.007s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pjp2/adrc_mimo_ws/src/mimo_adrc -DCMAKE_INSTALL_PREFIX=/home/pjp2/adrc_mimo_ws/install/mimo_adrc
+[0.013s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.078s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.475s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.814s] -- Configuring done
+[12.819s] -- Generating done
+[12.821s] -- Build files have been written to: /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+[12.825s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pjp2/adrc_mimo_ws/src/mimo_adrc -DCMAKE_INSTALL_PREFIX=/home/pjp2/adrc_mimo_ws/install/mimo_adrc
+[12.827s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+[12.848s] [ 20%] [32mBuilding CXX object CMakeFiles/adrc_lib.dir/src/ADRC.cpp.o[0m
+[12.848s] [ 40%] [32mBuilding CXX object CMakeFiles/adrc_lib.dir/src/MimoADRC.cpp.o[0m
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[Kvoid MimoADRC::observe(const float*, const float*)[m[K’:
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:38:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky_batch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.086s]    38 | void MimoADRC::observe([01;35m[Kconst float* y_batch[m[K, const float* u_prev_batch) {}
+[13.086s]       |                        [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:38:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku_prev_batch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.086s]    38 | void MimoADRC::observe(const float* y_batch, [01;35m[Kconst float* u_prev_batch[m[K) {}
+[13.086s]       |                                              [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[Kvoid MimoADRC::calculateU0(const float*, float*)[m[K’:
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:39:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv0_batch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.086s]    39 | void MimoADRC::calculateU0([01;35m[Kconst float* v0_batch[m[K, float* u0_out) {}
+[13.086s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:39:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku0_out[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.086s]    39 | void MimoADRC::calculateU0(const float* v0_batch, [01;35m[Kfloat* u0_out[m[K) {}
+[13.086s]       |                                                   [01;35m[K~~~~~~~^~~~~~[m[K
+[13.086s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[Kvoid MimoADRC::getZ3(float*)[m[K’:
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:40:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz3_out[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    40 | void MimoADRC::getZ3([01;35m[Kfloat* z3_out[m[K) {}
+[13.087s]       |                      [01;35m[K~~~~~~~^~~~~~[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’:
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:41:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ke[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    41 | __m256 MimoADRC::fal_vec([01;35m[K__m256 e[m[K, __m256 alpha, __m256 delta) { return _mm256_setzero_ps(); }
+[13.087s]       |                          [01;35m[K~~~~~~~^[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:41:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    41 | __m256 MimoADRC::fal_vec(__m256 e, [01;35m[K__m256 alpha[m[K, __m256 delta) { return _mm256_setzero_ps(); }
+[13.087s]       |                                    [01;35m[K~~~~~~~^~~~~[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:41:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdelta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    41 | __m256 MimoADRC::fal_vec(__m256 e, __m256 alpha, [01;35m[K__m256 delta[m[K) { return _mm256_setzero_ps(); }
+[13.087s]       |                                                  [01;35m[K~~~~~~~^~~~~[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’:
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:42:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    42 | __m256 MimoADRC::fhan_vec([01;35m[K__m256 x1[m[K, __m256 x2, __m256 r, __m256 h) { return _mm256_setzero_ps(); }
+[13.087s]       |                           [01;35m[K~~~~~~~^~[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:42:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    42 | __m256 MimoADRC::fhan_vec(__m256 x1, [01;35m[K__m256 x2[m[K, __m256 r, __m256 h) { return _mm256_setzero_ps(); }
+[13.087s]       |                                      [01;35m[K~~~~~~~^~[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:42:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    42 | __m256 MimoADRC::fhan_vec(__m256 x1, __m256 x2, [01;35m[K__m256 r[m[K, __m256 h) { return _mm256_setzero_ps(); }
+[13.087s]       |                                                 [01;35m[K~~~~~~~^[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:42:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    42 | __m256 MimoADRC::fhan_vec(__m256 x1, __m256 x2, __m256 r, [01;35m[K__m256 h[m[K) { return _mm256_setzero_ps(); }
+[13.087s]       |                                                           [01;35m[K~~~~~~~^[m[K
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K In member function ‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’:
+[13.087s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:43:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.087s]    43 | __m256 MimoADRC::sign_vec([01;35m[K__m256 x[m[K) { return _mm256_setzero_ps(); }
+[13.087s]       |                           [01;35m[K~~~~~~~^[m[K
+[13.143s] [ 60%] [32m[1mLinking CXX static library libadrc_lib.a[0m
+[13.158s] [ 60%] Built target adrc_lib
+[13.167s] [ 80%] [32mBuilding CXX object CMakeFiles/mimo_node.dir/src/mimo_node.cpp.o[0m
+[14.773s] [100%] [32m[1mLinking CXX executable mimo_node[0m
+[15.002s] [100%] Built target mimo_node
+[15.008s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+[15.012s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+[15.015s] -- Install configuration: ""
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/libadrc_lib.a
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node
+[15.015s] -- Set runtime path of "/home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node" to ""
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/ADRC.h
+[15.015s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/MimoADRC.h
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/package_run_dependencies/mimo_adrc
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/parent_prefix_path/mimo_adrc
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.sh
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.dsv
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.sh
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.dsv
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.bash
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.sh
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.zsh
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.dsv
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.dsv
+[15.016s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/packages/mimo_adrc
+[15.017s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig.cmake
+[15.017s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig-version.cmake
+[15.017s] -- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.xml
+[15.018s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc

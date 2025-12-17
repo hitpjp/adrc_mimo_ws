@@ -1,0 +1,2 @@
+Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24

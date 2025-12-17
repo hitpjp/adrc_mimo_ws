@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (mimo_adrc) JobQueued: {'identifier': 'mimo_adrc', 'dependencies': OrderedDict()}
+[0.000451] (mimo_adrc) JobStarted: {'identifier': 'mimo_adrc'}
+[0.004444] (mimo_adrc) JobProgress: {'identifier': 'mimo_adrc', 'progress': 'cmake'}
+[0.004908] (mimo_adrc) Command: {'cmd': ['/usr/bin/cmake', '/home/pjp2/adrc_mimo_ws/src/mimo_adrc', '-DCMAKE_INSTALL_PREFIX=/home/pjp2/adrc_mimo_ws/install/mimo_adrc'], 'cwd': '/home/pjp2/adrc_mimo_ws/build/mimo_adrc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'x86_64'), ('IS_WSL_ENVIRONMENT', 'true'), ('USER', 'pjp2'), ('DISTRO_COMMIT', '4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('GIT_ASKPASS', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass.sh'), ('SERVER_LISTEN_FLAG', '--port=0'), ('MANAGER_LOGS_DIR', '/home/pjp2/.trae-cn-server/manager-logs/resolve-1765358051101_888578'), ('SCRIPT_ID', '5c379547ea49d0bf033c3d7e'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/helpers/browser.sh'), ('PX4_SIM_HOST_ADDR', '172.30.128.1'), ('SERVER_CONNECTION_TOKEN', 'RUjDkYXNf8153mRKagZ2BX4SkV25jSpt'), ('HOME', '/home/pjp2'), ('TERM_PROGRAM_VERSION', '1.104.3'), ('SERVER_APP_NAME', 'Trae CN'), ('SERVER_BINARY', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-81a9a155-dfe7-41bc-82d8-29f38674ce10.sock'), ('OS_RELEASE_ID', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('TRAE_RESOLVE_TYPE', 'wsl'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('SERVER_DIR', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pjp2'), ('MANAGER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('NAME', 'pjp'), ('WSL_INTEROP', '/run/WSL/159639_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TRAE_REMOTE_SKIP_REMOTE_CHECK', 'true'), ('TERM', 'xterm-256color'), ('DISTRO_VERSION', '1.104.3'), ('EXTRACT_RETRY_COUNT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('vscode_base_dir', '/home/pjp2/.trae-cn-server'), ('PATH', '/home/hw/.local/bin:/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/pjp2/.local/bin:/home/hw/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/VMWare/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/f/MATLAB/v93/runtime/win64:/mnt/c/Program Files/usbipd-win/:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae/bin:/mnt/e/TRAE/Trae CN/bin:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/d/pycharm/PyCharm 2024.3.1/bin:/mnt/c/Users/92111/AppData/Roaming/npm:/mnt/c/Users/92111/AppData/Local/Programs/Ollama:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/e/Latex/texlive/2025/bin/windows:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/c/Users/92111/.dotnet/tools:/mnt/e/TRAE/Trae CN/resources/app/bin/lib:/snap/bin'), ('PLATFORM', 'linux'), ('DISTRO_QUALITY', 'stable'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('SERVER_SCRIPT', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/index_trae.js'), ('DISPLAY', '192.168.32.111:0'), ('LANG', 'C.UTF-8'), ('SERVER_PIDFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.pid'), ('SERVER_LOGS_DIR', '/home/pjp2/.trae-cn-server/logs'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DOWNLOAD_RETRY_COUNT', '0'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60304d63d3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SERVER_HOST', '127.0.0.1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SERVER_LOGFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.log'), ('TMP_DIR', '/run/user/1000/'), ('SERVER_TOKENFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.token'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('SERVER_EXTENSIONS_DIR', '/home/pjp2/.trae-cn-server/extensions'), ('PWD', '/home/pjp2/adrc_mimo_ws/build/mimo_adrc'), ('SERVER_APP_VERSION', '1.104.3'), ('TERM_PRODUCT', 'Trae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('SERVER_ARCH', 'x86_64'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('SERVER_APP_QUALITY', 'stable'), ('SERVER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100078] (-) TimerEvent: {}
+[0.200443] (-) TimerEvent: {}
+[0.300895] (-) TimerEvent: {}
+[0.401524] (-) TimerEvent: {}
+[0.501928] (-) TimerEvent: {}
+[0.602165] (-) TimerEvent: {}
+[0.702491] (-) TimerEvent: {}
+[0.802878] (-) TimerEvent: {}
+[0.830875] (mimo_adrc) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.903017] (-) TimerEvent: {}
+[1.003330] (-) TimerEvent: {}
+[1.103631] (-) TimerEvent: {}
+[1.204004] (-) TimerEvent: {}
+[1.304478] (-) TimerEvent: {}
+[1.404941] (-) TimerEvent: {}
+[1.505294] (-) TimerEvent: {}
+[1.605552] (-) TimerEvent: {}
+[1.705801] (-) TimerEvent: {}
+[1.806046] (-) TimerEvent: {}
+[1.906322] (-) TimerEvent: {}
+[2.006588] (-) TimerEvent: {}
+[2.106841] (-) TimerEvent: {}
+[2.127700] (mimo_adrc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.206978] (-) TimerEvent: {}
+[2.307344] (-) TimerEvent: {}
+[2.407714] (-) TimerEvent: {}
+[2.507990] (-) TimerEvent: {}
+[2.608432] (-) TimerEvent: {}
+[2.708741] (-) TimerEvent: {}
+[2.809118] (-) TimerEvent: {}
+[2.909511] (-) TimerEvent: {}
+[3.010008] (-) TimerEvent: {}
+[3.110447] (-) TimerEvent: {}
+[3.210863] (-) TimerEvent: {}
+[3.311221] (-) TimerEvent: {}
+[3.344271] (mimo_adrc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.411293] (-) TimerEvent: {}
+[3.511551] (-) TimerEvent: {}
+[3.592395] (mimo_adrc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.596060] (mimo_adrc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.598162] (mimo_adrc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.598623] (mimo_adrc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.600609] (mimo_adrc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.611634] (-) TimerEvent: {}
+[3.711839] (-) TimerEvent: {}
+[3.812066] (-) TimerEvent: {}
+[3.855671] (mimo_adrc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.859526] (mimo_adrc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.859781] (mimo_adrc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.859938] (mimo_adrc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.860276] (mimo_adrc) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (target_compile_options):\n'}
+[3.860384] (mimo_adrc) StderrLine: {'line': b'  Cannot specify compile options for target "adrc_lib" which is not built by\n'}
+[3.860419] (mimo_adrc) StderrLine: {'line': b'  this project.\n'}
+[3.860447] (mimo_adrc) StderrLine: {'line': b'\n'}
+[3.860471] (mimo_adrc) StderrLine: {'line': b'\x1b[0m\n'}
+[3.861762] (mimo_adrc) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.912143] (-) TimerEvent: {}
+[3.938369] (mimo_adrc) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.991366] (mimo_adrc) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.012222] (-) TimerEvent: {}
+[4.112463] (-) TimerEvent: {}
+[4.212747] (-) TimerEvent: {}
+[4.304835] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.307695] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.312806] (-) TimerEvent: {}
+[4.313027] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.320429] (mimo_adrc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.330902] (mimo_adrc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.354506] (mimo_adrc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.356033] (mimo_adrc) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.412864] (-) TimerEvent: {}
+[4.513086] (-) TimerEvent: {}
+[4.613439] (-) TimerEvent: {}
+[4.713844] (-) TimerEvent: {}
+[4.814149] (-) TimerEvent: {}
+[4.914466] (-) TimerEvent: {}
+[5.014758] (-) TimerEvent: {}
+[5.115386] (-) TimerEvent: {}
+[5.215865] (-) TimerEvent: {}
+[5.316353] (-) TimerEvent: {}
+[5.416717] (-) TimerEvent: {}
+[5.517197] (-) TimerEvent: {}
+[5.617691] (-) TimerEvent: {}
+[5.718272] (-) TimerEvent: {}
+[5.818755] (-) TimerEvent: {}
+[5.919122] (-) TimerEvent: {}
+[6.019389] (-) TimerEvent: {}
+[6.119692] (-) TimerEvent: {}
+[6.219949] (-) TimerEvent: {}
+[6.320281] (-) TimerEvent: {}
+[6.420714] (-) TimerEvent: {}
+[6.521099] (-) TimerEvent: {}
+[6.621402] (-) TimerEvent: {}
+[6.721663] (-) TimerEvent: {}
+[6.821913] (-) TimerEvent: {}
+[6.922171] (-) TimerEvent: {}
+[7.022413] (-) TimerEvent: {}
+[7.122659] (-) TimerEvent: {}
+[7.222907] (-) TimerEvent: {}
+[7.274605] (mimo_adrc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.322999] (-) TimerEvent: {}
+[7.423254] (-) TimerEvent: {}
+[7.523522] (-) TimerEvent: {}
+[7.623779] (-) TimerEvent: {}
+[7.724178] (-) TimerEvent: {}
+[7.824727] (-) TimerEvent: {}
+[7.924988] (-) TimerEvent: {}
+[8.025262] (-) TimerEvent: {}
+[8.125504] (-) TimerEvent: {}
+[8.225746] (-) TimerEvent: {}
+[8.326017] (-) TimerEvent: {}
+[8.426275] (-) TimerEvent: {}
+[8.526599] (-) TimerEvent: {}
+[8.626967] (-) TimerEvent: {}
+[8.727253] (-) TimerEvent: {}
+[8.827518] (-) TimerEvent: {}
+[8.927809] (-) TimerEvent: {}
+[9.028083] (-) TimerEvent: {}
+[9.128327] (-) TimerEvent: {}
+[9.228645] (-) TimerEvent: {}
+[9.328993] (-) TimerEvent: {}
+[9.429373] (-) TimerEvent: {}
+[9.529711] (-) TimerEvent: {}
+[9.630240] (-) TimerEvent: {}
+[9.730653] (-) TimerEvent: {}
+[9.830975] (-) TimerEvent: {}
+[9.931309] (-) TimerEvent: {}
+[10.031804] (-) TimerEvent: {}
+[10.132287] (-) TimerEvent: {}
+[10.232657] (-) TimerEvent: {}
+[10.333078] (-) TimerEvent: {}
+[10.433413] (-) TimerEvent: {}
+[10.533883] (-) TimerEvent: {}
+[10.634396] (-) TimerEvent: {}
+[10.734780] (-) TimerEvent: {}
+[10.817968] (mimo_adrc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.834905] (-) TimerEvent: {}
+[10.935140] (-) TimerEvent: {}
+[11.035385] (-) TimerEvent: {}
+[11.135658] (-) TimerEvent: {}
+[11.235904] (-) TimerEvent: {}
+[11.336132] (-) TimerEvent: {}
+[11.436371] (-) TimerEvent: {}
+[11.536695] (-) TimerEvent: {}
+[11.637148] (-) TimerEvent: {}
+[11.737485] (-) TimerEvent: {}
+[11.837714] (-) TimerEvent: {}
+[11.937959] (-) TimerEvent: {}
+[12.038230] (-) TimerEvent: {}
+[12.138506] (-) TimerEvent: {}
+[12.238788] (-) TimerEvent: {}
+[12.339048] (-) TimerEvent: {}
+[12.439487] (-) TimerEvent: {}
+[12.539732] (-) TimerEvent: {}
+[12.640150] (-) TimerEvent: {}
+[12.740471] (-) TimerEvent: {}
+[12.840793] (-) TimerEvent: {}
+[12.941035] (-) TimerEvent: {}
+[13.041268] (-) TimerEvent: {}
+[13.141497] (-) TimerEvent: {}
+[13.241772] (-) TimerEvent: {}
+[13.341996] (-) TimerEvent: {}
+[13.442264] (-) TimerEvent: {}
+[13.542640] (-) TimerEvent: {}
+[13.643118] (-) TimerEvent: {}
+[13.743538] (-) TimerEvent: {}
+[13.843955] (-) TimerEvent: {}
+[13.944249] (-) TimerEvent: {}
+[14.044608] (-) TimerEvent: {}
+[14.144853] (-) TimerEvent: {}
+[14.245145] (-) TimerEvent: {}
+[14.345354] (-) TimerEvent: {}
+[14.445601] (-) TimerEvent: {}
+[14.545900] (-) TimerEvent: {}
+[14.646319] (-) TimerEvent: {}
+[14.746683] (-) TimerEvent: {}
+[14.846965] (-) TimerEvent: {}
+[14.947327] (-) TimerEvent: {}
+[15.047669] (-) TimerEvent: {}
+[15.147909] (-) TimerEvent: {}
+[15.248191] (-) TimerEvent: {}
+[15.348469] (-) TimerEvent: {}
+[15.448710] (-) TimerEvent: {}
+[15.548959] (-) TimerEvent: {}
+[15.649239] (-) TimerEvent: {}
+[15.749519] (-) TimerEvent: {}
+[15.849908] (-) TimerEvent: {}
+[15.950313] (-) TimerEvent: {}
+[16.050639] (-) TimerEvent: {}
+[16.150898] (-) TimerEvent: {}
+[16.251246] (-) TimerEvent: {}
+[16.351497] (-) TimerEvent: {}
+[16.451755] (-) TimerEvent: {}
+[16.552034] (-) TimerEvent: {}
+[16.652392] (-) TimerEvent: {}
+[16.752723] (-) TimerEvent: {}
+[16.852993] (-) TimerEvent: {}
+[16.953383] (-) TimerEvent: {}
+[17.053863] (-) TimerEvent: {}
+[17.154307] (-) TimerEvent: {}
+[17.254702] (-) TimerEvent: {}
+[17.355126] (-) TimerEvent: {}
+[17.455460] (-) TimerEvent: {}
+[17.555792] (-) TimerEvent: {}
+[17.656072] (-) TimerEvent: {}
+[17.756482] (-) TimerEvent: {}
+[17.856934] (-) TimerEvent: {}
+[17.957311] (-) TimerEvent: {}
+[17.995695] (mimo_adrc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.008915] (mimo_adrc) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.057432] (-) TimerEvent: {}
+[18.157947] (-) TimerEvent: {}
+[18.258376] (-) TimerEvent: {}
+[18.358721] (-) TimerEvent: {}
+[18.377101] (mimo_adrc) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.377379] (mimo_adrc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.458831] (-) TimerEvent: {}
+[18.559129] (-) TimerEvent: {}
+[18.659340] (-) TimerEvent: {}
+[18.664326] (mimo_adrc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[18.664961] (mimo_adrc) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.695216] (mimo_adrc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.736758] (mimo_adrc) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.736893] (mimo_adrc) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pjp2/adrc_mimo_ws/src/mimo_adrc/include;$<BUILD_INTERFACE:/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include>\n'}
+[18.736924] (mimo_adrc) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.737197] (mimo_adrc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.737688] (mimo_adrc) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.737728] (mimo_adrc) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.737939] (mimo_adrc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.738944] (mimo_adrc) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.739043] (mimo_adrc) StdoutLine: {'line': b'See also "/home/pjp2/adrc_mimo_ws/build/mimo_adrc/CMakeFiles/CMakeOutput.log".\n'}
+[18.743812] (mimo_adrc) CommandEnded: {'returncode': 1}
+[18.754191] (mimo_adrc) JobEnded: {'identifier': 'mimo_adrc', 'rc': 1}
+[18.759490] (-) TimerEvent: {}
+[18.764585] (-) EventReactorShutdown: {}

@@ -1,0 +1,43 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+[ 20%] [32mBuilding CXX object CMakeFiles/adrc_lib.dir/src/ADRC.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/adrc_lib.dir/src/MimoADRC.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libadrc_lib.a[0m
+[ 60%] Built target adrc_lib
+[ 80%] [32mBuilding CXX object CMakeFiles/mimo_node.dir/src/mimo_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mimo_node[0m
+[100%] Built target mimo_node
+-- Install configuration: ""
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/libadrc_lib.a
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node
+-- Set runtime path of "/home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node" to ""
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/ADRC.h
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/MimoADRC.h
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/package_run_dependencies/mimo_adrc
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/parent_prefix_path/mimo_adrc
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.sh
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.dsv
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.sh
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.dsv
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.bash
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.sh
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.zsh
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.dsv
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.dsv
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/packages/mimo_adrc
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig.cmake
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig-version.cmake
+-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.xml

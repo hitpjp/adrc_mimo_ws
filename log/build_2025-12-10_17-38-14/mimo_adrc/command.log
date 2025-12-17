@@ -1,0 +1,6 @@
+Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pjp2/adrc_mimo_ws/src/mimo_adrc -DCMAKE_INSTALL_PREFIX=/home/pjp2/adrc_mimo_ws/install/mimo_adrc
+Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pjp2/adrc_mimo_ws/src/mimo_adrc -DCMAKE_INSTALL_PREFIX=/home/pjp2/adrc_mimo_ws/install/mimo_adrc
+Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc
+Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pjp2/adrc_mimo_ws/build/mimo_adrc

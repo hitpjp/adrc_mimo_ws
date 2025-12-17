@@ -1,0 +1,82 @@
+[0.008s] Invoking command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target adrc_lib[0m
+[0.080s] [ 20%] [32mBuilding CXX object CMakeFiles/adrc_lib.dir/src/MimoADRC.cpp.o[0m
+[0.317s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:25:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMimoADRC::[m[K’ on member ‘[01m[Ksign_vec[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.317s]    25 |     __m256 [01;31m[KMimoADRC[m[K::sign_vec(__m256 x) {
+[0.317s]       |            [01;31m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:54:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMimoADRC::[m[K’ on member ‘[01m[Kfal_vec[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.317s]    54 |     __m256 [01;31m[KMimoADRC[m[K::fal_vec(__m256 e, __m256 alpha, __m256 delta) {
+[0.317s]       |            [01;31m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:86:12:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMimoADRC::[m[K’ on member ‘[01m[Kfhan_vec[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.317s]    86 |     __m256 [01;31m[KMimoADRC[m[K::fhan_vec(__m256 x1, __m256 x2, __m256 r, __m256 h) {
+[0.317s]       |            [01;31m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:165:12:[m[K [01;31m[Kerror: [m[K‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’ cannot be overloaded with ‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’
+[0.317s]   165 |     __m256 [01;31m[Kfal_vec[m[K(__m256 e, __m256 alpha, __m256 delta);
+[0.317s]       |            [01;31m[K^~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:54:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’
+[0.317s]    54 |     __m256 [01;36m[KMimoADRC[m[K::fal_vec(__m256 e, __m256 alpha, __m256 delta) {
+[0.317s]       |            [01;36m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:166:12:[m[K [01;31m[Kerror: [m[K‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’ cannot be overloaded with ‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’
+[0.317s]   166 |     __m256 [01;31m[Kfhan_vec[m[K(__m256 x1, __m256 x2, __m256 r, __m256 h);
+[0.317s]       |            [01;31m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:86:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’
+[0.317s]    86 |     __m256 [01;36m[KMimoADRC[m[K::fhan_vec(__m256 x1, __m256 x2, __m256 r, __m256 h) {
+[0.317s]       |            [01;36m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:167:12:[m[K [01;31m[Kerror: [m[K‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’ cannot be overloaded with ‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’
+[0.317s]   167 |     __m256 [01;31m[Ksign_vec[m[K(__m256 x);
+[0.317s]       |            [01;31m[K^~~~~~~~[m[K
+[0.317s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:25:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’
+[0.317s]    25 |     __m256 [01;36m[KMimoADRC[m[K::sign_vec(__m256 x) {
+[0.317s]       |            [01;36m[K^~~~~~~~[m[K
+[0.318s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:[m[K In member function ‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’:
+[0.318s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:88:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kone[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.318s]    88 |         __m256 [01;35m[Kone[m[K = _mm256_set1_ps(1.0f);
+[0.318s]       |                [01;35m[K^~~[m[K
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:[m[K At global scope:
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:38:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MimoADRC::observe(const float*, const float*)[m[K’
+[0.319s]    38 | void [01;31m[KMimoADRC[m[K::observe(const float* y_batch, const float* u_prev_batch) {}
+[0.319s]       |      [01;31m[K^~~~~~~~[m[K
+[0.319s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:192:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MimoADRC::observe(const float*, const float*)[m[K’ previously defined here
+[0.319s]   192 |     void [01;36m[KMimoADRC[m[K::observe(const float* y_batch, const float* u_prev_batch) {
+[0.319s]       |          [01;36m[K^~~~~~~~[m[K
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:39:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MimoADRC::calculateU0(const float*, float*)[m[K’
+[0.319s]    39 | void [01;31m[KMimoADRC[m[K::calculateU0(const float* v0_batch, float* u0_out) {}
+[0.319s]       |      [01;31m[K^~~~~~~~[m[K
+[0.319s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:247:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MimoADRC::calculateU0(const float*, float*)[m[K’ previously defined here
+[0.319s]   247 |     void [01;36m[KMimoADRC[m[K::calculateU0(const float* v0_batch, float* u0_out) {
+[0.319s]       |          [01;36m[K^~~~~~~~[m[K
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:40:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid MimoADRC::getZ3(float*)[m[K’
+[0.319s]    40 | void [01;31m[KMimoADRC[m[K::getZ3(float* z3_out) {}
+[0.319s]       |      [01;31m[K^~~~~~~~[m[K
+[0.319s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:289:10:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid MimoADRC::getZ3(float*)[m[K’ previously defined here
+[0.319s]   289 |     void [01;36m[KMimoADRC[m[K::getZ3(float* z3_out) {
+[0.319s]       |          [01;36m[K^~~~~~~~[m[K
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:41:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’
+[0.319s]    41 | __m256 [01;31m[KMimoADRC[m[K::fal_vec(__m256 e, __m256 alpha, __m256 delta) { return _mm256_setzero_ps(); }
+[0.319s]       |        [01;31m[K^~~~~~~~[m[K
+[0.319s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:54:12:[m[K [01;36m[Knote: [m[K‘[01m[K__m256 MimoADRC::fal_vec(__m256, __m256, __m256)[m[K’ previously defined here
+[0.319s]    54 |     __m256 [01;36m[KMimoADRC[m[K::fal_vec(__m256 e, __m256 alpha, __m256 delta) {
+[0.319s]       |            [01;36m[K^~~~~~~~[m[K
+[0.319s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:42:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’
+[0.320s]    42 | __m256 [01;31m[KMimoADRC[m[K::fhan_vec(__m256 x1, __m256 x2, __m256 r, __m256 h) { return _mm256_setzero_ps(); }
+[0.320s]       |        [01;31m[K^~~~~~~~[m[K
+[0.320s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.320s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:86:12:[m[K [01;36m[Knote: [m[K‘[01m[K__m256 MimoADRC::fhan_vec(__m256, __m256, __m256, __m256)[m[K’ previously defined here
+[0.320s]    86 |     __m256 [01;36m[KMimoADRC[m[K::fhan_vec(__m256 x1, __m256 x2, __m256 r, __m256 h) {
+[0.320s]       |            [01;36m[K^~~~~~~~[m[K
+[0.320s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:43:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’
+[0.320s]    43 | __m256 [01;31m[KMimoADRC[m[K::sign_vec(__m256 x) { return _mm256_setzero_ps(); }
+[0.320s]       |        [01;31m[K^~~~~~~~[m[K
+[0.320s] In file included from [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/src/MimoADRC.cpp:1[m[K:
+[0.320s] [01m[K/home/pjp2/adrc_mimo_ws/src/mimo_adrc/include/mimo_adrc/MimoADRC.h:25:12:[m[K [01;36m[Knote: [m[K‘[01m[K__m256 MimoADRC::sign_vec(__m256)[m[K’ previously defined here
+[0.320s]    25 |     __m256 [01;36m[KMimoADRC[m[K::sign_vec(__m256 x) {
+[0.320s]       |            [01;36m[K^~~~~~~~[m[K
+[0.341s] gmake[2]: *** [CMakeFiles/adrc_lib.dir/build.make:90: CMakeFiles/adrc_lib.dir/src/MimoADRC.cpp.o] Error 1
+[0.341s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/adrc_lib.dir/all] Error 2
+[0.341s] gmake: *** [Makefile:146: all] Error 2
+[0.342s] Invoked command in '/home/pjp2/adrc_mimo_ws/build/mimo_adrc' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pjp2/adrc_mimo_ws/build/mimo_adrc -- -j24 -l24

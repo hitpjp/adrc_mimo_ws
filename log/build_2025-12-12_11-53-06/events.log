@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000414] (mimo_adrc) JobQueued: {'identifier': 'mimo_adrc', 'dependencies': OrderedDict()}
+[0.000460] (mimo_adrc) JobStarted: {'identifier': 'mimo_adrc'}
+[0.006720] (mimo_adrc) JobProgress: {'identifier': 'mimo_adrc', 'progress': 'cmake'}
+[0.007291] (mimo_adrc) JobProgress: {'identifier': 'mimo_adrc', 'progress': 'build'}
+[0.007821] (mimo_adrc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pjp2/adrc_mimo_ws/build/mimo_adrc', '--', '-j24', '-l24'], 'cwd': '/home/pjp2/adrc_mimo_ws/build/mimo_adrc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'x86_64'), ('IS_WSL_ENVIRONMENT', 'true'), ('USER', 'pjp2'), ('DISTRO_COMMIT', '4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('GIT_ASKPASS', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass.sh'), ('SERVER_LISTEN_FLAG', '--port=0'), ('MANAGER_LOGS_DIR', '/home/pjp2/.trae-cn-server/manager-logs/resolve-1765500052198_523812'), ('SCRIPT_ID', '9be5a8f706875bab376014ba'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/helpers/browser.sh'), ('PX4_SIM_HOST_ADDR', '172.30.128.1'), ('SERVER_CONNECTION_TOKEN', 'PF6sl3FeHw1CvtgRla1BEuJLGxABzpYx'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pjp2'), ('OLDPWD', '/home/pjp2/adrc_mimo_ws'), ('TERM_PROGRAM_VERSION', '1.104.3'), ('SERVER_APP_NAME', 'Trae CN'), ('SERVER_BINARY', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-930f3c56-4ff1-4065-af9f-7824e68d7b83.sock'), ('OS_RELEASE_ID', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('TRAE_RESOLVE_TYPE', 'wsl'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('SERVER_DIR', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pjp2'), ('MANAGER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('NAME', 'pjp'), ('WSL_INTEROP', '/run/WSL/306608_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TRAE_REMOTE_SKIP_REMOTE_CHECK', 'true'), ('TERM', 'xterm-256color'), ('DISTRO_VERSION', '1.104.3'), ('EXTRACT_RETRY_COUNT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('vscode_base_dir', '/home/pjp2/.trae-cn-server'), ('PATH', '/home/hw/.local/bin:/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/pjp2/.local/bin:/home/hw/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/VMWare/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/f/MATLAB/v93/runtime/win64:/mnt/c/Program Files/usbipd-win/:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae/bin:/mnt/e/TRAE/Trae CN/bin:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/d/pycharm/PyCharm 2024.3.1/bin:/mnt/c/Users/92111/AppData/Roaming/npm:/mnt/c/Users/92111/AppData/Local/Programs/Ollama:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/e/Latex/texlive/2025/bin/windows:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/c/Users/92111/.dotnet/tools:/mnt/e/TRAE/Trae CN/resources/app/bin/lib:/snap/bin'), ('PLATFORM', 'linux'), ('DISTRO_QUALITY', 'stable'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('SERVER_SCRIPT', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/index_trae.js'), ('DISPLAY', '172.30.128.1:0'), ('LANG', 'C.UTF-8'), ('SERVER_PIDFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.pid'), ('SERVER_LOGS_DIR', '/home/pjp2/.trae-cn-server/logs'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DOWNLOAD_RETRY_COUNT', '0'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60304d63d3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install/mimo_adrc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SERVER_HOST', '127.0.0.1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SERVER_LOGFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.log'), ('TMP_DIR', '/run/user/1000/'), ('SERVER_TOKENFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.token'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('SERVER_EXTENSIONS_DIR', '/home/pjp2/.trae-cn-server/extensions'), ('PWD', '/home/pjp2/adrc_mimo_ws/build/mimo_adrc'), ('SERVER_APP_VERSION', '1.104.3'), ('TERM_PRODUCT', 'Trae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('SERVER_ARCH', 'x86_64'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('SERVER_APP_QUALITY', 'stable'), ('SERVER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install/mimo_adrc:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.066249] (mimo_adrc) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099438] (-) TimerEvent: {}
+[0.160684] (mimo_adrc) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199521] (-) TimerEvent: {}
+[0.299781] (-) TimerEvent: {}
+[0.400038] (-) TimerEvent: {}
+[0.419035] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.421460] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.427808] (mimo_adrc) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.437222] (mimo_adrc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448299] (mimo_adrc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.478598] (mimo_adrc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.480302] (mimo_adrc) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500128] (-) TimerEvent: {}
+[0.600346] (-) TimerEvent: {}
+[0.700784] (-) TimerEvent: {}
+[0.801309] (-) TimerEvent: {}
+[0.901620] (-) TimerEvent: {}
+[1.002003] (-) TimerEvent: {}
+[1.102464] (-) TimerEvent: {}
+[1.202828] (-) TimerEvent: {}
+[1.303099] (-) TimerEvent: {}
+[1.403366] (-) TimerEvent: {}
+[1.503601] (-) TimerEvent: {}
+[1.603822] (-) TimerEvent: {}
+[1.704079] (-) TimerEvent: {}
+[1.804349] (-) TimerEvent: {}
+[1.904668] (-) TimerEvent: {}
+[2.005091] (-) TimerEvent: {}
+[2.105411] (-) TimerEvent: {}
+[2.205846] (-) TimerEvent: {}
+[2.306230] (-) TimerEvent: {}
+[2.406599] (-) TimerEvent: {}
+[2.506842] (-) TimerEvent: {}
+[2.607159] (-) TimerEvent: {}
+[2.707651] (-) TimerEvent: {}
+[2.808088] (-) TimerEvent: {}
+[2.908458] (-) TimerEvent: {}
+[3.008882] (-) TimerEvent: {}
+[3.109594] (-) TimerEvent: {}
+[3.210121] (-) TimerEvent: {}
+[3.310605] (-) TimerEvent: {}
+[3.410924] (-) TimerEvent: {}
+[3.511231] (-) TimerEvent: {}
+[3.611544] (-) TimerEvent: {}
+[3.711890] (-) TimerEvent: {}
+[3.812168] (-) TimerEvent: {}
+[3.912467] (-) TimerEvent: {}
+[4.012766] (-) TimerEvent: {}
+[4.113117] (-) TimerEvent: {}
+[4.213384] (-) TimerEvent: {}
+[4.313678] (-) TimerEvent: {}
+[4.414155] (-) TimerEvent: {}
+[4.514540] (-) TimerEvent: {}
+[4.614821] (-) TimerEvent: {}
+[4.715212] (-) TimerEvent: {}
+[4.815527] (-) TimerEvent: {}
+[4.915902] (-) TimerEvent: {}
+[5.016345] (-) TimerEvent: {}
+[5.116908] (-) TimerEvent: {}
+[5.218686] (-) TimerEvent: {}
+[5.320556] (-) TimerEvent: {}
+[5.421651] (-) TimerEvent: {}
+[5.522231] (-) TimerEvent: {}
+[5.625131] (-) TimerEvent: {}
+[5.728258] (-) TimerEvent: {}
+[5.831326] (-) TimerEvent: {}
+[5.934410] (-) TimerEvent: {}
+[6.035833] (-) TimerEvent: {}
+[6.138981] (-) TimerEvent: {}
+[6.241347] (-) TimerEvent: {}
+[6.341657] (-) TimerEvent: {}
+[6.441943] (-) TimerEvent: {}
+[6.542268] (-) TimerEvent: {}
+[6.642558] (-) TimerEvent: {}
+[6.742830] (-) TimerEvent: {}
+[6.843098] (-) TimerEvent: {}
+[6.943404] (-) TimerEvent: {}
+[7.043814] (-) TimerEvent: {}
+[7.144099] (-) TimerEvent: {}
+[7.244377] (-) TimerEvent: {}
+[7.344691] (-) TimerEvent: {}
+[7.445041] (-) TimerEvent: {}
+[7.545460] (-) TimerEvent: {}
+[7.645755] (-) TimerEvent: {}
+[7.746037] (-) TimerEvent: {}
+[7.846338] (-) TimerEvent: {}
+[7.946822] (-) TimerEvent: {}
+[8.047349] (-) TimerEvent: {}
+[8.147750] (-) TimerEvent: {}
+[8.248232] (-) TimerEvent: {}
+[8.348691] (-) TimerEvent: {}
+[8.448981] (-) TimerEvent: {}
+[8.549245] (-) TimerEvent: {}
+[8.649535] (-) TimerEvent: {}
+[8.749798] (-) TimerEvent: {}
+[8.850179] (-) TimerEvent: {}
+[8.950520] (-) TimerEvent: {}
+[9.051186] (-) TimerEvent: {}
+[9.151702] (-) TimerEvent: {}
+[9.252008] (-) TimerEvent: {}
+[9.352294] (-) TimerEvent: {}
+[9.452591] (-) TimerEvent: {}
+[9.553004] (-) TimerEvent: {}
+[9.653525] (-) TimerEvent: {}
+[9.753822] (-) TimerEvent: {}
+[9.854109] (-) TimerEvent: {}
+[9.954486] (-) TimerEvent: {}
+[10.054754] (-) TimerEvent: {}
+[10.155100] (-) TimerEvent: {}
+[10.255512] (-) TimerEvent: {}
+[10.355876] (-) TimerEvent: {}
+[10.456379] (-) TimerEvent: {}
+[10.556692] (-) TimerEvent: {}
+[10.657058] (-) TimerEvent: {}
+[10.757451] (-) TimerEvent: {}
+[10.857835] (-) TimerEvent: {}
+[10.958152] (-) TimerEvent: {}
+[11.058425] (-) TimerEvent: {}
+[11.158693] (-) TimerEvent: {}
+[11.258954] (-) TimerEvent: {}
+[11.359256] (-) TimerEvent: {}
+[11.459793] (-) TimerEvent: {}
+[11.560093] (-) TimerEvent: {}
+[11.660367] (-) TimerEvent: {}
+[11.760642] (-) TimerEvent: {}
+[11.860907] (-) TimerEvent: {}
+[11.961172] (-) TimerEvent: {}
+[12.061461] (-) TimerEvent: {}
+[12.161728] (-) TimerEvent: {}
+[12.261989] (-) TimerEvent: {}
+[12.362269] (-) TimerEvent: {}
+[12.462575] (-) TimerEvent: {}
+[12.562971] (-) TimerEvent: {}
+[12.663327] (-) TimerEvent: {}
+[12.763897] (-) TimerEvent: {}
+[12.864553] (-) TimerEvent: {}
+[12.965091] (-) TimerEvent: {}
+[13.065583] (-) TimerEvent: {}
+[13.166030] (-) TimerEvent: {}
+[13.253578] (mimo_adrc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.266119] (-) TimerEvent: {}
+[13.310355] (mimo_adrc) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.323261] (mimo_adrc) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[13.357878] (mimo_adrc) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[13.365271] (mimo_adrc) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[13.366206] (-) TimerEvent: {}
+[13.443870] (mimo_adrc) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[13.466415] (-) TimerEvent: {}
+[13.530397] (mimo_adrc) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.531688] (mimo_adrc) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.531762] (mimo_adrc) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.566562] (-) TimerEvent: {}
+[13.578991] (mimo_adrc) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.596232] (mimo_adrc) StdoutLine: {'line': b'-- Generating done\n'}
+[13.600047] (mimo_adrc) StdoutLine: {'line': b'-- Build files have been written to: /home/pjp2/adrc_mimo_ws/build/mimo_adrc\n'}
+[13.616320] (mimo_adrc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target adrc_lib\x1b[0m\n'}
+[13.622577] (mimo_adrc) StdoutLine: {'line': b'[ 60%] Built target adrc_lib\n'}
+[13.627742] (mimo_adrc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimo_node\x1b[0m\n'}
+[13.636664] (mimo_adrc) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mimo_node.dir/src/mimo_node.cpp.o\x1b[0m\n'}
+[13.666678] (-) TimerEvent: {}
+[13.766960] (-) TimerEvent: {}
+[13.867266] (-) TimerEvent: {}
+[13.967719] (-) TimerEvent: {}
+[14.068054] (-) TimerEvent: {}
+[14.168369] (-) TimerEvent: {}
+[14.268846] (-) TimerEvent: {}
+[14.369167] (-) TimerEvent: {}
+[14.469555] (-) TimerEvent: {}
+[14.570006] (-) TimerEvent: {}
+[14.670318] (-) TimerEvent: {}
+[14.770714] (-) TimerEvent: {}
+[14.871116] (-) TimerEvent: {}
+[14.971453] (-) TimerEvent: {}
+[15.071808] (-) TimerEvent: {}
+[15.172132] (-) TimerEvent: {}
+[15.272607] (-) TimerEvent: {}
+[15.373015] (-) TimerEvent: {}
+[15.473315] (-) TimerEvent: {}
+[15.573771] (-) TimerEvent: {}
+[15.674189] (-) TimerEvent: {}
+[15.774506] (-) TimerEvent: {}
+[15.874829] (-) TimerEvent: {}
+[15.975187] (-) TimerEvent: {}
+[16.075517] (-) TimerEvent: {}
+[16.175922] (-) TimerEvent: {}
+[16.276232] (-) TimerEvent: {}
+[16.376626] (-) TimerEvent: {}
+[16.476901] (-) TimerEvent: {}
+[16.577297] (-) TimerEvent: {}
+[16.677598] (-) TimerEvent: {}
+[16.777990] (-) TimerEvent: {}
+[16.878360] (-) TimerEvent: {}
+[16.978675] (-) TimerEvent: {}
+[17.073819] (mimo_adrc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mimo_node\x1b[0m\n'}
+[17.078797] (-) TimerEvent: {}
+[17.179028] (-) TimerEvent: {}
+[17.279288] (-) TimerEvent: {}
+[17.379695] (-) TimerEvent: {}
+[17.403608] (mimo_adrc) StdoutLine: {'line': b'[100%] Built target mimo_node\n'}
+[17.409296] (mimo_adrc) CommandEnded: {'returncode': 0}
+[17.410163] (mimo_adrc) JobProgress: {'identifier': 'mimo_adrc', 'progress': 'install'}
+[17.414345] (mimo_adrc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pjp2/adrc_mimo_ws/build/mimo_adrc'], 'cwd': '/home/pjp2/adrc_mimo_ws/build/mimo_adrc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ARCH', 'x86_64'), ('IS_WSL_ENVIRONMENT', 'true'), ('USER', 'pjp2'), ('DISTRO_COMMIT', '4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('GIT_ASKPASS', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass.sh'), ('SERVER_LISTEN_FLAG', '--port=0'), ('MANAGER_LOGS_DIR', '/home/pjp2/.trae-cn-server/manager-logs/resolve-1765500052198_523812'), ('SCRIPT_ID', '9be5a8f706875bab376014ba'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/helpers/browser.sh'), ('PX4_SIM_HOST_ADDR', '172.30.128.1'), ('SERVER_CONNECTION_TOKEN', 'PF6sl3FeHw1CvtgRla1BEuJLGxABzpYx'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pjp2'), ('OLDPWD', '/home/pjp2/adrc_mimo_ws'), ('TERM_PROGRAM_VERSION', '1.104.3'), ('SERVER_APP_NAME', 'Trae CN'), ('SERVER_BINARY', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-930f3c56-4ff1-4065-af9f-7824e68d7b83.sock'), ('OS_RELEASE_ID', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('TRAE_RESOLVE_TYPE', 'wsl'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('SERVER_DIR', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pjp2'), ('MANAGER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('NAME', 'pjp'), ('WSL_INTEROP', '/run/WSL/306608_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TRAE_REMOTE_SKIP_REMOTE_CHECK', 'true'), ('TERM', 'xterm-256color'), ('DISTRO_VERSION', '1.104.3'), ('EXTRACT_RETRY_COUNT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('vscode_base_dir', '/home/pjp2/.trae-cn-server'), ('PATH', '/home/hw/.local/bin:/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/pjp2/.local/bin:/home/hw/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/f/VMWare/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/e/MATLAB/runtime/win64:/mnt/e/MATLAB/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/f/MATLAB/v93/runtime/win64:/mnt/c/Program Files/usbipd-win/:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/e/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae/bin:/mnt/e/TRAE/Trae CN/bin:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/92111/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/msys64/ucrt64/bin:/mnt/d/pycharm/PyCharm 2024.3.1/bin:/mnt/c/Users/92111/AppData/Roaming/npm:/mnt/c/Users/92111/AppData/Local/Programs/Ollama:/mnt/c/Users/92111/AppData/Local/Microsoft/WindowsApps:/mnt/e/Latex/texlive/2025/bin/windows:/mnt/e/Cursor/cursor/resources/app/bin:/mnt/c/Users/92111/.dotnet/tools:/mnt/e/TRAE/Trae CN/resources/app/bin/lib:/snap/bin'), ('PLATFORM', 'linux'), ('DISTRO_QUALITY', 'stable'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('SERVER_SCRIPT', '/home/pjp2/.trae-cn-server/bin/stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8/index_trae.js'), ('DISPLAY', '172.30.128.1:0'), ('LANG', 'C.UTF-8'), ('SERVER_PIDFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.pid'), ('SERVER_LOGS_DIR', '/home/pjp2/.trae-cn-server/logs'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DOWNLOAD_RETRY_COUNT', '0'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60304d63d3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install/mimo_adrc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SERVER_HOST', '127.0.0.1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SERVER_LOGFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.log'), ('TMP_DIR', '/run/user/1000/'), ('SERVER_TOKENFILE', '/home/pjp2/.trae-cn-server/.stable-4b3f5ec95a6b90d976fe38c4d0844821c2a284b8.token'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('SERVER_EXTENSIONS_DIR', '/home/pjp2/.trae-cn-server/extensions'), ('PWD', '/home/pjp2/adrc_mimo_ws/build/mimo_adrc'), ('SERVER_APP_VERSION', '1.104.3'), ('TERM_PRODUCT', 'Trae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('SERVER_ARCH', 'x86_64'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('SERVER_APP_QUALITY', 'stable'), ('SERVER_DATA_DIR', '/home/pjp2/.trae-cn-server'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pjp2/adrc_mimo_ws/install/mimo_adrc:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[17.417939] (mimo_adrc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.418039] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/libadrc_lib.a\n'}
+[17.419632] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node\n'}
+[17.420513] (mimo_adrc) StdoutLine: {'line': b'-- Set runtime path of "/home/pjp2/adrc_mimo_ws/install/mimo_adrc/lib/mimo_adrc/mimo_node" to ""\n'}
+[17.420606] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include\n'}
+[17.420638] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc\n'}
+[17.420663] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/ADRC.h\n'}
+[17.420687] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/include/mimo_adrc/MimoADRC.h\n'}
+[17.421042] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/library_path.sh\n'}
+[17.421116] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/library_path.dsv\n'}
+[17.421201] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/package_run_dependencies/mimo_adrc\n'}
+[17.421306] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/parent_prefix_path/mimo_adrc\n'}
+[17.421513] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.sh\n'}
+[17.421583] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/ament_prefix_path.dsv\n'}
+[17.421720] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.sh\n'}
+[17.421778] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/environment/path.dsv\n'}
+[17.421806] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.bash\n'}
+[17.421831] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.sh\n'}
+[17.421855] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.zsh\n'}
+[17.421908] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/local_setup.dsv\n'}
+[17.422229] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.dsv\n'}
+[17.422324] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/ament_index/resource_index/packages/mimo_adrc\n'}
+[17.422355] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.422381] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.422411] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig.cmake\n'}
+[17.422456] (mimo_adrc) StdoutLine: {'line': b'-- Up-to-date: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/cmake/mimo_adrcConfig-version.cmake\n'}
+[17.422492] (mimo_adrc) StdoutLine: {'line': b'-- Installing: /home/pjp2/adrc_mimo_ws/install/mimo_adrc/share/mimo_adrc/package.xml\n'}
+[17.423294] (mimo_adrc) CommandEnded: {'returncode': 0}
+[17.437113] (mimo_adrc) JobEnded: {'identifier': 'mimo_adrc', 'rc': 0}
+[17.437763] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:9 (target_compile_options):
+  Cannot specify compile options for target "adrc_lib" which is not built by
+  this project.
+
+[0m
